@@ -63,7 +63,11 @@ dependencies {
     implementation(libs.androidx.core.splashscreen)     // SplashScreen API
     implementation(libs.glide)                          // Glide
     implementation(libs.firebase.auth)                  // Firebase Auth
-    implementation(libs.gms)                            // Google Gms Google Services
+    implementation(libs.gms)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)                            // Google Gms Google Services
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
