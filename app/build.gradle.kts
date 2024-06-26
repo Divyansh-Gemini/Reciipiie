@@ -3,6 +3,7 @@ import java.util.Properties
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.gms.google.services)
 }
 
 android {
@@ -26,6 +27,7 @@ android {
             }
         }
         buildConfigField("String", "SPOONACULAR_API_KEY", "\"${localProperties["SPOONACULAR_API_KEY"]}\"")
+        buildConfigField("String", "OAUTH_WEB_CLIENT_ID", "\"${localProperties["OAUTH_WEB_CLIENT_ID"]}\"")
     }
 
     buildTypes {
@@ -61,6 +63,7 @@ dependencies {
     implementation(libs.androidx.core.splashscreen)     // SplashScreen API
     implementation(libs.glide)                          // Glide
     implementation(libs.firebase.auth)                  // Firebase Auth
+    implementation(libs.gms)                            // Google Gms Google Services
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

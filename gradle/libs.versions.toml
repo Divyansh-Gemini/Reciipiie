@@ -12,8 +12,9 @@ constraintlayout = "2.1.4"
 retrofit = "2.11.0"
 coreSplashscreen = "1.0.1"
 glide = "4.16.0"
-googleGmsGoogleServices = "4.4.2"
 firebaseAuth = "23.0.0"
+gms = "21.2.0"
+googleServices = "4.4.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,8 +30,9 @@ gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref 
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+gms = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "gms" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
+gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleServices"}
