@@ -1,7 +1,30 @@
 <resources>
     <style name="Base.Theme.Reciipiie" parent="Theme.Material3.Light.NoActionBar">
-         <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="android:textViewStyle">@style/InterTextViewStyle</item>
+        <item name="android:buttonStyle">@style/InterButtonStyle</item>
     </style>
 
     <style name="Theme.Reciipiie" parent="Base.Theme.Reciipiie" />
+
+    <!-- Apply Inter font globally -->
+    <style name="InterTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="InterButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <!-- Customize Search Bar -->
+    <style name="CustomSearchBarStyle" parent="Widget.Material3.SearchBar">
+        <item name="android:backgroundTint">@color/gray3</item>
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearance</item>
+    </style>
+    <style name="CustomShapeAppearance" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
 </resources>

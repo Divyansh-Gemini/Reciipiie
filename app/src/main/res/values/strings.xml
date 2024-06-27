@@ -7,4 +7,10 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="home">Home</string>
     <string name="favourites">Favourites</string>
+    <string name="discover_tasty_and_healthy_recipes">Discover tasty and healthy recipes</string>
+    <string name="hey_user">👋Hey %1$s</string>
+    <string name="search_any_recipe">Search any recipe</string>
+    <string name="popular_recipes">Popular Recipes</string>
+    <string name="all_recipes">All Recipes</string>
+    <string name="favourite_recipes">Favourite Recipes</string>
 </resources>

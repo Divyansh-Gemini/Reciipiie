@@ -55,19 +55,29 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)                       // Material Design
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
-    implementation(libs.retrofit)                       // Retrofit
-    implementation(libs.gson)                           // Gson Converter
-    implementation(libs.androidx.core.splashscreen)     // SplashScreen API
-    implementation(libs.glide)                          // Glide
-    implementation(libs.firebase.auth)                  // Firebase Auth
-    implementation(libs.gms)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)                            // Google Gms Google Services
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.core.splashscreen)     // SplashScreen API
+
+    // Material Design
+    implementation(libs.material)                       // Material Design 3
+
+    // Retrofit
+    implementation(libs.retrofit)                       // Retrofit
+    implementation(libs.gson)                           // Gson Converter
+
+    // Firebase
+    implementation(libs.firebase.auth)                  // Firebase Auth
+    implementation(libs.gms)                            // Google Gms Google Services
+
+    // Glide
+    implementation(libs.glide)                          // Glide
+    annotationProcessor(libs.compiler)                  // Glide Compiler
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
