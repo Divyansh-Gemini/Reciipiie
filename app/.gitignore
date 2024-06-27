@@ -1,2 +1,10 @@
-/build
+/build/generated
+/build/gmpAppId
+/build/intermediates/
+/build/kotlin
+/build/outputs/apk/androidTest
+/build/outputs/apk/debug/output-metadata.json
+/build/outputs/logs
+/build/snapshot
+/build/tmp
 google-services.json
