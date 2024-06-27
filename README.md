@@ -24,13 +24,13 @@ Reciipiie is a user-friendly recipe app that allows users to explore popular ind
 ## Screenshots
 
 <p align="center">
-    <img src="" height="500" alt=""/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="" height="500" alt=""/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="" height="500" alt=""/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="" height="500" alt=""/>
+    <img src="https://github.com/Divyansh-Gemini/Reciipiie/assets/88696617/295b7c43-abfb-4ef5-a37f-259397ecb227" height="400" alt=""/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/Divyansh-Gemini/Reciipiie/assets/88696617/fcd2d02c-3e29-4b99-9fed-745012e11b5c" height="400" alt=""/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/Divyansh-Gemini/Reciipiie/assets/88696617/039307a8-1ab0-43a4-a437-260fce4fcce5" height="400" alt=""/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/Divyansh-Gemini/Reciipiie/assets/88696617/9b9c2198-74f7-48ad-abef-9dece926e026" height="400" alt=""/>
 </p>
 
 ## Installation Steps
