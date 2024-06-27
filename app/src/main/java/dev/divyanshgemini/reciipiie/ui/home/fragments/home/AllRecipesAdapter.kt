@@ -1,5 +1,6 @@
 package dev.divyanshgemini.reciipiie.ui.home.fragments.home
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,6 +8,7 @@ import com.bumptech.glide.Glide
 import dev.divyanshgemini.reciipiie.data.model.Recipe
 import dev.divyanshgemini.reciipiie.databinding.LayoutPopularRecipeCardBinding
 import dev.divyanshgemini.reciipiie.databinding.LayoutRecipeCardBinding
+import dev.divyanshgemini.reciipiie.ui.recipe.RecipeActivity
 
 class AllRecipesAdapter : RecyclerView.Adapter<AllRecipesAdapter.AllRecipesViewHolder>() {
 
@@ -36,6 +38,12 @@ class AllRecipesAdapter : RecyclerView.Adapter<AllRecipesAdapter.AllRecipesViewH
                 Glide.with(recipeImage.context)
                     .load(recipe.image)
                     .into(recipeImage)
+            }
+
+            binding.root.setOnClickListener {
+                val intent = Intent(it.context, RecipeActivity::class.java)
+                intent.putExtra("recipeId", recipe.id)
+                it.context.startActivity(intent)
             }
         }
     }

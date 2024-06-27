@@ -13,4 +13,11 @@
     <string name="popular_recipes">Popular Recipes</string>
     <string name="all_recipes">All Recipes</string>
     <string name="favourite_recipes">Favourite Recipes</string>
+    <string name="recipe_image">Recipe image</string>
+    <string name="jalebi_fafda">Jalebi Fafda</string>
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="equipments">Equipments</string>
+    <string name="quick_summary">Quick Summary</string>
 </resources>
